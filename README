@@ -1,0 +1,8 @@
+Contains a wrapper around launching mrjob from the command line.
+
+This launcher doesn't cover all arguments but any args we've run across a need
+for at TellApart are in there.
+
+More configuration can be done by launching from within code, but we found that
+doing it from the command line was very straight forward when wrapped with
+mrjerb.
